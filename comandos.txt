@@ -4,3 +4,4 @@ cp ../src/index.html ../data/copia.txt
 mkdir -p docs/manuales && cd docs/manuales
 touch ../../login.txt
 rm -r ../../data
+mv ../../src/index.html ayuda.html
