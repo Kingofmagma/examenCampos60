@@ -2,3 +2,5 @@ mkdir src docs data
 echo "<h1>Hola</h1>" > src/index.html
 cp ../src/index.html ../data/copia.txt
 mkdir -p docs/manuales && cd docs/manuales
+touch ../../login.txt
+rm -r ../../data
